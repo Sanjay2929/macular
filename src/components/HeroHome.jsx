@@ -5,10 +5,10 @@ import coupleImg from "../assets/img/webp/heroCoupleImg.webp";
 
 const HeroHome = () => {
   return (
-    <div>
+    <>
       <header className="d-flex flex-column min_Hight_Custom">
         <Navbar />
-        <section className="flex-grow-1 d-flex justify-content-center align-items-center eyeBGimg py-5 my-5">
+        <section className="flex-grow-1 d-flex justify-content-center align-items-center eyeBGimg mt_70 pb-5">
           <Container className="d-flex flex-column align-items-center pt-5 position-relative pb-5 pb-xl-0">
             <h1 className="clr_white text-center pb-5 mb-2 ff_jakarta fw_600 fs_5x6l lh_120 position-relative z_3">
               Seeing life
@@ -113,7 +113,7 @@ const HeroHome = () => {
           </Container>
         </section>
       </header>
-    </div>
+    </>
   );
 };
 

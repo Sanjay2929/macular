@@ -11,7 +11,7 @@ const Success = () => {
           src={businessNews}
           alt="img"
         />
-        <Container className="pt-2 mt-lg-5 mb-4">
+        <Container className="py-4 mt-lg-5 mb-4">
           <Row className="py-lg-5 pb-5">
             <Col lg={6} xs={12}>
               <div className="successBox position-relative z_2">

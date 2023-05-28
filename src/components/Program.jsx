@@ -11,7 +11,7 @@ const Program = () => {
             <span className="programArrow position-relative"> Who</span> will be
             eligible for <span className="d-md-block"> the Program</span>
           </h2>
-          <Row className="pt-5 pb-4 mt-2 justify-content-center">
+          <Row className="pt-5 pb-4 mt-2 justify-content-center position-relative">
             <Col lg={5} md={6} sm={10} xs={12}>
               <div className="accepted position-relative overflow-hidden">
                 <span>
@@ -94,8 +94,9 @@ const Program = () => {
                 </ul>
               </div>
             </Col>
+            <span className="programGreenLight position-absolute"></span>
           </Row>
-          <div className="d-flex justify-content-center pt-3">
+          <div className="d-flex justify-content-center pt-3 pb-5">
             <GreenButton greenButton="Book Call" />
           </div>
         </Container>

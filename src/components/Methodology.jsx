@@ -7,8 +7,8 @@ const Methodology = () => {
   return (
     <>
       <section className="py-md-5">
-        <Container className="py-5">
-          <Row className="justify-content-between align-items-center">
+        <Container className="py-5 methodologyGreenShadow position-relative">
+          <Row className="justify-content-between align-items-center position-relative z_2">
             <Col lg={5} md={6}>
               <div className="pe-lg-4  GreenBox1 position-relative ">
                 <img
@@ -32,7 +32,7 @@ const Methodology = () => {
                 purus aliquam mauris quis molestie ornare mauris egestas nibh.
                 Arcu sed neque est lacus vivamus mattis libero.
               </p>
-              <div className="pt-1">
+              <div className="pt-3 mt-1">
                 <GreenButton greenButton="Learn more" />
               </div>
             </Col>

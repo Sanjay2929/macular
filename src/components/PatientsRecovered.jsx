@@ -6,9 +6,9 @@ import patient from "../assets/img/webp/patientsRecovered.webp";
 const PatientsRecovered = () => {
   return (
     <>
-      <section className="py-5 mt-5 position-relative">
+      <section className="py-5 my-5 position-relative">
         <Container className="py-5 position-relative z_2">
-          <Row className="justify-content-lg-between justify-content-center align-items-center">
+          <Row className="justify-content-lg-between justify-content-center align-items-center pb-5">
             <Col lg={5} sm={9} xs={10} className="ps-0">
               <div className="pe-lg-5 ps-4 patientImgBg position-relative">
                 <img

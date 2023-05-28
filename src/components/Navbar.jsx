@@ -26,7 +26,7 @@ export const Navbar = () => {
   // });
   return (
     <>
-      <nav className="py-3 position-fixed z_40 start-0 top-0 w-100 clearHeader darkHeader">
+      <nav className="py-3 position-sm-fixed z_40 start-0 top-0 w-100 clearHeader darkHeader">
         <Container>
           <div className="d-flex justify-content-between align-items-center">
             <div className="eyeShapeLogo position-relative d-flex justify-content-center align-items-center">
