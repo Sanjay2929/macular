@@ -186,8 +186,8 @@ const MacularFooter = () => {
                   <h4 className="clr_white ff_roboto fw_900 fs_md lh_150 pb_10 pt-1 mb-0">
                     Legal
                   </h4>
-                  <ul className="ps-0">
-                    <li className="pb_10">
+                  <ul className="ps-0 FooterLinks">
+                    <li>
                       <Link className="fw_400 ff_roboto fs_md clr_FA opacity_70">
                         Terms of Service
                       </Link>

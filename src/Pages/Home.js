@@ -16,8 +16,8 @@ import MacularFooter from "../components/MacularFooter";
 import Preloader from "../components/Preloader";
 
 const Home = () => {
+   document.body.classList.add("overflow_hidden");
    setTimeout(() => {
-     document.body.classList.add("overflow_hidden");
      document.getElementById("none").style.display = "none";
      document.body.classList.remove("overflow_hidden");
    }, 3000);
@@ -36,7 +36,7 @@ const Home = () => {
       <FeesStructure />
       <Experts />
       <PatientsSays />
-      <AskedQuestions />
+      <AskedQuestions bgColorChange="frequentlyLine" />
       <MacularFooter />
     </div>
   );

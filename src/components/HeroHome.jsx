@@ -110,6 +110,12 @@ const HeroHome = () => {
                 />
               </svg>
             </span>
+            <a
+              className="fw_600 fs_sm ff_jakarta scrollWord clr_white opacity_70 position-absolute"
+              href="#symptoms"
+            >
+              scroll
+            </a>
           </Container>
         </section>
       </header>

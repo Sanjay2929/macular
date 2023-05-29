@@ -241,7 +241,13 @@ ul.navbar li a:hover::before {
   background: white;
   color: var(--clr-green) !important;
 }
-
+.scrollWord {
+  letter-spacing: 0.67em;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  left: 0;
+  bottom: 0;
+}
 .leftEyeposition {
   left: 5%;
   top: 6%;
@@ -451,6 +457,11 @@ ul.navbar li a:hover::before {
   border-radius: 5px;
   border-image-slice: 1;
 }
+.expertOutline:hover{
+  outline: 5px solid  rgba(38, 178, 143, 0.46);;
+  outline-offset: -3px;
+  border-radius: 10px;
+}
 .successBox {
   padding: 18px 15px;
   background: rgba(0, 0, 0, 0.1);
@@ -657,6 +668,7 @@ ul.navbar li a:hover::before {
   height: 24px;
   background: #23a370;
   border-radius: 50%;
+  transition: all .2s linear;
 }
 .gap_18 {
   gap: 18px;
@@ -672,6 +684,15 @@ ul.navbar li a:hover::before {
 }
 .FooterLinks li {
   padding-bottom: 15px;
+}
+.FooterLinks li a{
+  transition: all .3s linear;
+}
+.FooterLinks li a:hover{
+  color: var(--clr-green) !important;
+}
+.socialLogo:hover{
+  transform: translateY(-20%);
 }
 .pb_10 {
   padding-bottom: 10px;
@@ -1242,6 +1263,12 @@ ul.navbar li a:hover::before {
   opacity: 0.5;
   filter: blur(100px);
 }
+.frequentlyLine {
+  position: relative;
+}
+.line {
+  position: relative;
+}
 /* PRELOADER */
 .z_100 {
   z-index: 100;
@@ -1267,6 +1294,31 @@ ul.navbar li a:hover::before {
   }
   100% {
     transform: scale(1) rotate(-10deg);
+  }
+}
+.heroHeadinghover {
+  transition: all 0.3s linear;
+}
+.recoverAnimation1{
+  animation: recover1 1s ease-in-out alternate infinite ;
+}
+@keyframes recover1 {
+  0%{
+    transform: translateY(-30%);
+  }
+  100%{
+    transform: translateY(30%);
+  }
+}
+.recoverAnimation2{
+  animation: recover2 1s ease-in-out alternate infinite ;
+}
+@keyframes recover2 {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-10%);
   }
 }
 @media (max-width: 768px) {
@@ -1302,10 +1354,19 @@ ul.navbar li a:hover::before {
     --fs-4x8l: 40px;
     --fs-5x6l: 47px;
   }
+  .heroHeadinghover:hover {
+    transform: scale(1.2);
+  }
   .frequentlyLine::after {
     content: url(./assets/img/svg/frequentlyArrowLine.svg);
     position: absolute;
-    top: -55%;
+    top: 0;
+    right: 47%;
+  }
+  .bg_green .line::after {
+    content: url(./assets/img/svg/frequentlyArrowLine.svg);
+    position: absolute;
+    top: 0;
     right: 47%;
   }
   .position-sm-fixed {
@@ -1409,8 +1470,12 @@ ul.navbar li a:hover::before {
     transform: translateX(-45px);
   }
   .frequentlyLine::after {
-    top: -76%;
-    right: 64%;
+    top: 11px;
+    right: 60%;
+  }
+  .bg_green .line::after {
+    top: 11px;
+    right: 60%;
   }
   .tabsButton {
     padding: 23px 10px 24px 10px;

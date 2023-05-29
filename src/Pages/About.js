@@ -11,8 +11,8 @@ import { Navbar } from "../components/Navbar";
 import Preloader from "../components/Preloader";
 
 const About = () => {
+  document.body.classList.add("overflow_hidden");
   setTimeout(() => {
-    document.body.classList.add("overflow_hidden");
     document.getElementById("none").style.display = "none";
     document.body.classList.remove("overflow_hidden");
   }, 3000);

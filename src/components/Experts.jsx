@@ -13,7 +13,7 @@ const Experts = () => {
           <Row className="justify-content-center pb-4">
             <Col lg={5} sm={6} xs={11} data-aos="fade-right">
               <div className="ps-lg-5 pe-1">
-                <img className="w-100" src={brianImg} alt="img" />
+                <img className="w-100 expertOutline" src={brianImg} alt="img" />
                 <div className="d-flex justify-content-between align-items-center pt-sm-3 pt-2 pb-2">
                   <h3 className="fw_600 ff_jakarta fs_2x4l clr_FA mb-0">
                     Brian A. Bakke, PhD
@@ -48,7 +48,11 @@ const Experts = () => {
             </Col>
             <Col lg={5} sm={6} xs={11} data-aos="fade-left">
               <div className="pe-lg-5 ps1">
-                <img className="w-100" src={GeorgeImg} alt="img" />
+                <img
+                  className="w-100 expertOutline"
+                  src={GeorgeImg}
+                  alt="img"
+                />
                 <div className="d-flex justify-content-between align-items-center pt-sm-3 pt-2 pb-2">
                   <h3 className="fw_600 ff_jakarta fs_2x4l clr_FA mb-0">
                     George W. Rozakis Md

@@ -42,7 +42,7 @@ const Symptoms = () => {
   const first = React.useRef();
   return (
     <>
-      <section className="pb-4">
+      <section className="pb-4" id="symptoms">
         <Container className="pb-5 mb-1 stackCardRightShadow position-relative">
           <div className="symptomBg overflow-hidden position-relative z_2">
             <div className="py-4 symptomHeadingBg">

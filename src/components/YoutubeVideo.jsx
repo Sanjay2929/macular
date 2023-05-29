@@ -96,7 +96,7 @@ const YoutubeVideo = () => {
               </Modal.Header>
               <Modal.Body>
                 <iframe
-                  src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+                  src="https://youtube.com/shorts/DHhGa5UljNc?feature=share"
                   frameborder="0"
                   allow="autoplay"
                   allowfullscreen
@@ -156,7 +156,7 @@ const YoutubeVideo = () => {
               </Modal.Header>
               <Modal.Body>
                 <iframe
-                  src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+                  src="https://youtu.be/LSDxjp6sWYQ"
                   frameborder="0"
                   allow="autoplay"
                   allowfullscreen

@@ -16,7 +16,7 @@ const PatientsRecovered = () => {
                   src={patient}
                   alt="img"
                 />
-                <div className="d-flex align-items-center position-absolute macular gap_sm_21 gap_10">
+                <div className="d-flex align-items-center position-absolute macular gap_sm_21 gap_10 recoverAnimation1">
                   <span>
                     <svg
                       width="37"
@@ -44,7 +44,7 @@ const PatientsRecovered = () => {
                     Macular <span className="d-block">Degeneration</span>
                   </h4>
                 </div>
-                <div className="recoverBox position-absolute">
+                <div className="recoverBox position-absolute recoverAnimation2">
                   <div className="d-flex align-items-center gap-2">
                     <span>
                       <svg
@@ -83,7 +83,7 @@ const PatientsRecovered = () => {
               lg={6}
               xs={12}
               className="pt-lg-0 pt-sm-4 pt-5"
-              data-aos="fade-right"
+              data-aos="fade-left"
             >
               <h2 className="ff_jakarta fw_500 fs_4x8l clr_white lh_120 opacity_90 pb-3 mb-0 position-relative rocoverLineArrow">
                 More than 50% patients recovered

@@ -9,9 +9,9 @@ const AskedQuestions = (props) => {
   };
   return (
     <div className={props.bgColorChange}>
-      <section className="pb-sm-5">
+      <section className="pb-sm-5 line">
         <Container className="py-5 position-relative z_2">
-          <h2 className="text-center ff_jakarta fw_500 fs_4x8l clr_white opacity_90 lh_120 p-sm-5 pb-4 frequentlyLine position-relative">
+          <h2 className="text-center ff_jakarta fw_500 fs_4x8l clr_white opacity_90 lh_120 p-sm-5 pb-4 ">
             Frequently Asked Questions
           </h2>
           <Row className="pt-3 pb-5">
