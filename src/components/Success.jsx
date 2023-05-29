@@ -12,7 +12,7 @@ const Success = () => {
           alt="img"
         />
         <Container className="py-4 mt-lg-5 mb-4">
-          <Row className="py-lg-5 pb-5">
+          <Row className="py-lg-5 pb-sm-5">
             <Col lg={6} xs={12}>
               <div className="successBox position-relative z_2">
                 <h3 className="fw_500 ff_jakarta fs_4x8l clr_FA">

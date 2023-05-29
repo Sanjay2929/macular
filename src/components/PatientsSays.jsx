@@ -16,8 +16,8 @@ const PatientsSays = () => {
   const first = React.useRef();
   return (
     <div>
-      <section className="py-5">
-        <Container className="py-5">
+      <section className="py-md-5">
+        <Container className="py-sm-5">
           <div className="d-flex flex-column align-items-center pb-4 pt-5">
             <h2 className="text-center fw_500 ff_jakarta fs_4x8l clr_white opacity_90 mb-3 patientsArrow position-relative">
               What our patients say

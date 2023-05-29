@@ -7,7 +7,7 @@ const Methodology = () => {
   return (
     <>
       <section className="py-md-5">
-        <Container className="py-5 methodologyGreenShadow position-relative">
+        <Container className="py-sm-5 py-4 methodologyGreenShadow position-relative">
           <Row className="justify-content-between align-items-center position-relative z_2">
             <Col lg={5} md={6}>
               <div className="pe-lg-4  GreenBox1 position-relative ">
@@ -27,7 +27,7 @@ const Methodology = () => {
                 purus aliquam mauris quis molestie ornare mauris egestas nibh.
                 Arcu sed neque est lacus vivamus mattis libero.
               </p>
-              <p className="fw_400 fs_md ff_roboto clr_FA opacity_70 lh_150 pt-2 pb=lg-4 pb-md-2 pb-4  mb-0">
+              <p className="fw_400 fs_md ff_roboto clr_FA opacity_70 lh_150 pt-2 pb=lg-4 pb-md-2 pb-sm-4  mb-0">
                 Quisque arcu erat aenean iaculis nisl molestie et tellus. In
                 purus aliquam mauris quis molestie ornare mauris egestas nibh.
                 Arcu sed neque est lacus vivamus mattis libero.

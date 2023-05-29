@@ -51,7 +51,7 @@ const YoutubeVideo = () => {
   ];
   return (
     <div>
-      <section className="py-5">
+      <section className="py-sm-5">
         <Container className="py-5 my-2">
           <h2 className="text-center ff_jakarta fw_500 fs_4x8l clr_FA lh_120 pb-5 arrowLineVideo position-relative">
             Video Testimonials
@@ -121,7 +121,7 @@ const YoutubeVideo = () => {
                   xs={12}
                   key={val.id}
                   onClick={() => handleShow(v)}
-                  className="pt-lg-5 pt-sm-4 pt-2 mb-4 position-relative z_2 hoverYoutube cursiorPointer"
+                  className="pt-lg-5 pt-sm-4 pt-2 mt-sm-4 mt-2 position-relative z_2 hoverYoutube cursiorPointer"
                 >
                   <div className="videoBox overflow-hidden position-relative z_2">
                     <div className="position-relative">

@@ -6,7 +6,7 @@ const AboutHome = (props) => {
   return (
     <div>
       <header className="d-flex flex-column minVh40">
-        <Navbar />
+       
         <section className="d-flex justify-content-center align-items-center flex-grow-1 aboutus position-relative overflow-hidden pb-5">
           <Container className="pt-5 position-relative">
             <h2 className="text-center ff_jakarta fw_600 fs_5x6l lh_120 clr_white pt-5 position-relative z_2">

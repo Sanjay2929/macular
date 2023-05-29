@@ -77,9 +77,9 @@ const WetDryTestimonials = () => {
   const first = React.useRef();
   return (
     <>
-      <section className="py-5 mb-5">
+      <section className="py-sm-5 py-4 mb-5">
         <Container>
-          <div className="d-flex align-items-center gap_20 pb-5 my-2">
+          <div className="d-flex align-items-center gap_20 pb-sm-5 pb-4 my-2">
             <button
               id="slider1"
               onClick={tabbutton}

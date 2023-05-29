@@ -7,7 +7,7 @@ const HeroHome = () => {
   return (
     <>
       <header className="d-flex flex-column min_Hight_Custom">
-        <Navbar />
+        <Navbar navAHome="navA" />
         <section className="flex-grow-1 d-flex justify-content-center align-items-center eyeBGimg mt_70 pb-5">
           <Container className="d-flex flex-column align-items-center pt-5 position-relative pb-5 pb-xl-0">
             <h1 className="clr_white text-center pb-5 mb-2 ff_jakarta fw_600 fs_5x6l lh_120 position-relative z_3">

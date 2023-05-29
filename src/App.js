@@ -6,8 +6,14 @@ import "slick-carousel/slick/slick-theme.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Testimonials from "./Pages/Testimonials";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="bg_main">
       <Routes>

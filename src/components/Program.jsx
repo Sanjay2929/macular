@@ -6,12 +6,12 @@ const Program = () => {
   return (
     <div>
       <section className="py-sm-5">
-        <Container className="pt-5 pb-3 mt-md-5">
+        <Container className="pt-sm-5 pb-3 mt-md-5">
           <h2 className="fw_500 ff_jakarta fs_4x8l clr_white text-center lh_120 pt-5 mt-5">
             <span className="programArrow position-relative"> Who</span> will be
             eligible for <span className="d-md-block"> the Program</span>
           </h2>
-          <Row className="pt-5 pb-4 mt-2 justify-content-center position-relative">
+          <Row className="pt-sm-5 pt-4 pb-4 mt-2 justify-content-center position-relative">
             <Col lg={5} md={6} sm={10} xs={12}>
               <div className="accepted position-relative overflow-hidden">
                 <span>

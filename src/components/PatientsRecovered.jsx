@@ -6,10 +6,10 @@ import patient from "../assets/img/webp/patientsRecovered.webp";
 const PatientsRecovered = () => {
   return (
     <>
-      <section className="py-5 my-5 position-relative">
-        <Container className="py-5 position-relative z_2">
+      <section className="py-sm-5 pt-4 my-md-5 position-relative">
+        <Container className="py-sm-5 pt-5 pb-3 position-relative z_2">
           <Row className="justify-content-lg-between justify-content-center align-items-center pb-5">
-            <Col lg={5} sm={9} xs={10} className="ps-0">
+            <Col lg={5} sm={9} xs={10} className="ps-0" data-aos="fade-right">
               <div className="pe-lg-5 ps-4 patientImgBg position-relative">
                 <img
                   className="w-100 position-relative z_2"
@@ -79,7 +79,12 @@ const PatientsRecovered = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6} xs={12} className="pt-lg-0 pt-sm-4 pt-5">
+            <Col
+              lg={6}
+              xs={12}
+              className="pt-lg-0 pt-sm-4 pt-5"
+              data-aos="fade-right"
+            >
               <h2 className="ff_jakarta fw_500 fs_4x8l clr_white lh_120 opacity_90 pb-3 mb-0 position-relative rocoverLineArrow">
                 More than 50% patients recovered
               </h2>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import GreenButton from "./GreenButton";
 import { RiMenu3Fill } from "react-icons/ri";
 
-export const Navbar = () => {
+export const Navbar = (props) => {
   const [first, setfirst] = useState(true);
   function showUl() {
     setfirst(!first);
@@ -15,15 +15,6 @@ export const Navbar = () => {
   } else {
     document.body.classList.remove("overflow-hidden");
   }
-  // $(window).scroll(function () {
-  //   var scroll = $(window).scrollTop();
-
-  //   if (scroll >= 100) {
-  //     $(".clearHeader").addClass("darkHeader");
-  //   } else {
-  //     $(".clearHeader").removeClass("darkHeader");
-  //   }
-  // });
   return (
     <>
       <nav className="py-3 position-sm-fixed z_40 start-0 top-0 w-100 clearHeader darkHeader">
@@ -55,19 +46,29 @@ export const Navbar = () => {
               }
             >
               <li>
-                <Link to="/">Home</Link>
+                <Link className={props.navAHome} to="/">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/About">About</Link>
+                <Link className={props.navAbout} to="/About">
+                  About
+                </Link>
               </li>
               <li>
-                <Link to="/Testimonials">Testimonials</Link>
+                <Link className={props.navATestimo} to="/Testimonials">
+                  Testimonials
+                </Link>
               </li>
               <li>
-                <Link to="/Location">Location </Link>
+                <Link className="" to="/Location">
+                  Location{" "}
+                </Link>
               </li>
               <li>
-                <Link to="/Process">Process</Link>
+                <Link className="" to="/Process">
+                  Process
+                </Link>
               </li>
               <li className="d-block d-md-none">
                 <GreenButton greenButton="Contact Us" />

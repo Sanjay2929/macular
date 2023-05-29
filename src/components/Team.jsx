@@ -5,13 +5,13 @@ import BrianTeam from "../assets/img/webp/AboutTeamBrian.webp";
 const Team = () => {
   return (
     <div>
-      <section className="py-5">
-        <Container className="py-5 teamLeftShadow position-relative">
-          <h2 className="fw_500 ff_jakarta fs_4x8l clr_FA lh_120 text-center pb-5 mb-4 teamsRightShadow position-relative">
+      <section className="py-sm-5">
+        <Container className="py-sm-5 pt-4 teamLeftShadow position-relative">
+          <h2 className="fw_500 ff_jakarta fs_4x8l clr_FA lh_120 text-center pb-5 mb-sm-4 teamsRightShadow position-relative">
             Our Team
           </h2>
-          <Row className="justify-content-lg-between justify-content-center align-items-center pt-1 pb-5 position-relative z_2">
-            <Col xl={5} lg={6} sm={9} xs={11}>
+          <Row className="justify-content-lg-between justify-content-center align-items-center pt-sm-1 pb-5 position-relative z_2">
+            <Col xl={5} lg={6} sm={9} xs={11} data-aos="fade-right">
               <div className="px-4 georgeImgBgBox position-relative">
                 <img
                   className="w-100 z_2 position-relative"
@@ -20,7 +20,7 @@ const Team = () => {
                 />
               </div>
             </Col>
-            <Col lg={6} xs={12} className="pt-lg-0 pt-4">
+            <Col lg={6} xs={12} className="pt-lg-0 pt-4" data-aos="fade-left">
               <h4 className="fw_500 ff_jakarta fs_3x2l lh_120 clr_white pb-3 mb-0">
                 George W. Rozakis, MD
               </h4>
@@ -45,8 +45,13 @@ const Team = () => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-lg-between justify-content-center align-items-center pt-5 mt-4 flex-wrap-reverse brianRightShadow position-relative">
-            <Col lg={6} xs={12} className="pt-lg-0 pt-4 position-relative z_2">
+          <Row className="justify-content-lg-between justify-content-center align-items-center pt-5 mt-sm-4 flex-wrap-reverse brianRightShadow position-relative">
+            <Col
+              lg={6}
+              xs={12}
+              className="pt-lg-0 pt-4 position-relative z_2"
+              data-aos="fade-right"
+            >
               <h4 className="fw_500 ff_jakarta fs_3x2l lh_120 clr_white pb-3 mb-0">
                 Brian Bakke, Ph.D.
               </h4>
@@ -71,7 +76,10 @@ const Team = () => {
               </p>
             </Col>
             <Col xl={5} lg={6} sm={9} xs={11}>
-              <div className="px-4 BrianImgBgBox position-relative z_2">
+              <div
+                className="px-4 BrianImgBgBox position-relative z_2"
+                data-aos="fade-left"
+              >
                 <img
                   className="w-100 z_2 position-relative"
                   src={BrianTeam}

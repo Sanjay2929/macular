@@ -6,7 +6,7 @@ import methodsImg from "../assets/img/webp/HomingMethod.webp";
 const HomingMethod = () => {
   return (
     <>
-      <section className="py-5">
+      <section className="py-lg-5">
         <Container className="py-5">
           <Row className="align-items-center flex-wrap-reverse justify-content-center pt-3 pb-4">
             <Col xs={12} lg={6}>

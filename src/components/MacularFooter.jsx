@@ -6,7 +6,7 @@ const MacularFooter = () => {
   return (
     <div>
       <footer className="footerBackground pt-5">
-        <Container className="py-md-5 py-4">
+        <Container className="py-md-5 py-sm-4">
           <Row className="justify-content-between pb-md-5 mb-2">
             <Col lg={3} md={4} sm={7} xs={10}>
               <div className="eyeShapeLogo position-relative d-flex justify-content-center align-items-center mb-3">

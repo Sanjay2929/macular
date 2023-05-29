@@ -13,10 +13,18 @@ import Experts from "../components/Experts";
 import PatientsSays from "../components/PatientsSays";
 import AskedQuestions from "../components/AskedQuestions";
 import MacularFooter from "../components/MacularFooter";
+import Preloader from "../components/Preloader";
 
 const Home = () => {
+   setTimeout(() => {
+     document.body.classList.add("overflow_hidden");
+     document.getElementById("none").style.display = "none";
+     document.body.classList.remove("overflow_hidden");
+   }, 3000);
+
   return (
     <div className=" overflow-hidden">
+      <Preloader />
       <HeroHome />
       <Symptoms />
       <Methodology />
